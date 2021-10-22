@@ -19,7 +19,7 @@ public class TestBase {
 
     @AfterSuite
     public void tearDown () {
-        wd.quit();
+       // wd.quit();
     }
 
     public boolean isElementPresent(By locator) {

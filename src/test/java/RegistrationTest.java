@@ -16,8 +16,8 @@ public class RegistrationTest extends TestBase {
     @Test
     public void registrationTestPositive() {
         int i = (int) (System.currentTimeMillis()/1000)%3600;
-        String email = "nik"+i+"@gmail.com";
-        String password = "Leonida$";
+        String email = "leo.fil87"+i+"@gmail.com";
+        String password = "Leonida$1987";
         System.out.println("Email : "+ email);
 
         openLoginRegistrationForm();
@@ -39,8 +39,8 @@ public class RegistrationTest extends TestBase {
     @Test
     public void registrationTestWrongEmail() {
         int i = (int) (System.currentTimeMillis()/1000)%3600;
-        String email = "nik"+i+"@gmail.com";
-        String password = "Leonida$";
+        String email = "leo.fil87"+i+"@gmail.com";
+        String password = "Leonida$1987";
         System.out.println("Email : "+ email);
 
         openLoginRegistrationForm();

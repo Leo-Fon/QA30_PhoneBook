@@ -19,12 +19,12 @@ public class LoginTest extends TestBase {
         WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
         emailInput.click();
         emailInput.clear();
-        emailInput.sendKeys("israel87leon@gmail.com");
+        emailInput.sendKeys("leo.fil87@gmail.com");
 
         WebElement passwordInput = wd.findElement(By.xpath("//input[2]"));
         passwordInput.click();
         passwordInput.clear();
-        passwordInput.sendKeys("leofil190887");
+        passwordInput.sendKeys("Leonida$1987");
 
 
         // click login button
@@ -35,8 +35,8 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginTest2 () {
-        String email = "israel87leon@gmail.com";
-        String password = "Leofil190887";
+        String email = "leo.fil87@gmail.com";
+        String password = "Leonida$1987";
 
         openLoginRegistrationForm();
         fillLoginRegistrationForm(email,password);
